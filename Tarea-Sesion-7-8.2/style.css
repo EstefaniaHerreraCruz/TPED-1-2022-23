@@ -48,27 +48,33 @@ header li {
     text-align: right;
 }
 
-header img {
-    width: 100%;
+figure img {
+    width: auto;
+    height: max-content;
+    align-items: center;
 }
 
-header h1 {
-    font-size: 12mm;
+main h1 {
+    font-size: 16mm;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-bottom: 90px;
-    margin-top: 90px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     background-color: greenyellow;
 }
     
-header h2 {
+main h2 {
     font-size: 4mm;
     color: black;
     text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: goldenrod;
 }
 
@@ -81,10 +87,13 @@ main {
     margin-right: auto;
     padding-left: 15%;
     padding-right: 15%;
+    padding-bottom: 15px;
 }
 
 main p {
     margin-bottom: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .capital::first-letter {
@@ -107,16 +116,24 @@ article {
 
 article img {
     width: 100%;
+    height: auto;
+}
+
+article p {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
 }
 
 article .lista {
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 article li{
-    margin-left: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 20px;
 }
 
@@ -136,6 +153,11 @@ summary {
     align-content: center;
 }
 
+summary p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 footer {
     margin-left: auto;
     margin-right: auto;
@@ -152,35 +174,39 @@ footer {
     padding-bottom: 25px;
 }
 
-.ajuste {
-    height: 50px;
+footer .historias {
+    height:max-content;
     width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-self: center;
 
 }
 
 .informacion {
     list-style-type: none;
     background-color: lightslategray;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+    padding: 8px;
 }
 
 footer li {
-    /*display: inline;*/
-    padding: 15px;
+    display: inline;
+    padding-right: 8px;
 }
 
 div .archivo {
     margin-top: 30px;
     border-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 footer p {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
-
-/* hr {
-    background-color: black;
-    height: 5px;
-} */
