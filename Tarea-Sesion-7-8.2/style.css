@@ -7,7 +7,7 @@
 #cuerpo {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
-    background-color: blue;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
@@ -18,7 +18,7 @@ header {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    color: aliceblue;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(6, 6, 39);
 }
@@ -32,25 +32,31 @@ header ul {
 
 header li {
     display: inline;
-    width: 33%;
-    text-align: justify;
+    align-items: center;
+    padding-right: 30mm;
 }
 
-.izq{
+header .izq{
     text-align: left;
 }
 
-.centro{
+header .centro{
     text-align: center;
 }
 
-.dcha{
+header .dcha{
     text-align: right;
 }
 
+figure {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 figure img {
-    width: auto;
-    height: max-content;
+    width: 100%;
+    height: auto;
     align-items: center;
 }
 
@@ -63,7 +69,7 @@ main h1 {
     margin-right: 60px;
     margin-bottom: 10px;
     margin-top: 10px;
-    background-color: greenyellow;
+    background-color: white;
 }
     
 main h2 {
@@ -72,16 +78,16 @@ main h2 {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: goldenrod;
+    background-color: white;
 }
 
 main {
     color: black;
     align-self: center;
-    background-color: aqua;
+    background-color: white;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -110,7 +116,7 @@ article {
     width: 90%;
     padding-left: 15%;
     padding-right: 15%;
-    background-color: lightgreen;
+    background-color: white;
     align-content: center;
 }
 
@@ -145,11 +151,7 @@ summary {
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: 20px;
-  /*  margin-left: 90px;
-    margin-right: 90px;
-    margin-bottom: 20px;
-    width: 50%;*/
-    background-color: lightpink;
+    background-color: white;
     align-content: center;
 }
 
@@ -164,21 +166,17 @@ footer {
     width: 90%;
     padding-left: 15%;
     padding-right: 15%;
-    /*
-    margin-left: 90px;
-    margin-right: 90px;
-    width: 50%;*/
-    background-color: orchid;
+    background-color: white;
     align-content: center;
     margin-bottom: 90px;
     padding-bottom: 25px;
 }
 
 footer .historias {
-    height:max-content;
+    height: 74px;
     width: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     margin-left: 100px;
     margin-right: 100px;
     align-self: center;
@@ -187,7 +185,7 @@ footer .historias {
 
 .informacion {
     list-style-type: none;
-    background-color: lightslategray;
+    background-color: white;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 15px;
@@ -209,4 +207,8 @@ div .archivo {
 footer p {
     margin-top: 20px;
     margin-bottom: 15px;
+}
+
+.negrita {
+    font-weight: bolder;
 }
