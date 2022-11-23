@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#principal {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(208, 226, 43);
+}
+
+section {
+/*  background-image: url(img\fondo-1400x860.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 600px;
+    background-color: rgb(43, 226, 83);
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(189, 84, 84);
+    display: inline-flex;
+    margin-bottom: 25px;
+}
+
+#logo {
+    width: 50%;
+    background-color: rgb(208, 226, 43);
+
+}
+
+#menu {
+    width: 50%;
+    background-color: rgb(168, 255, 127);
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+article {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(173, 108, 88);
+    display: inline-flex;
+}
+
+#superior {
+ /*   display: inline-flex; */
+    width: 50%;
+    background-color: rgb(121, 121, 134);
+}
+
+#inferior {
+   /* display: inline-flex; */
+    width: 50%;
+    background-color: rgb(136, 170, 170);
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(73, 64, 82);
+}
+
+ul {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+li {
+    display: inline;
+    padding-right: 8px;
+}
+
+#ofertas {
+    display: flex;
+    padding-top: 20px;
+}
