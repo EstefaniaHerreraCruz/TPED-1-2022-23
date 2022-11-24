@@ -5,23 +5,20 @@
 }
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #principal {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(208, 226, 43);
 }
 
 section {
-/*  background-image: url(img\fondo-1400x860.jpg);
+    background-image: url(img\fondo-1400x860.jpg);
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
-    background-color: rgb(43, 226, 83);
     padding-left: 90px;
     padding-right: 90px;
 }
@@ -29,48 +26,93 @@ section {
 header {
     width: 100%;
     height: 80px;
-    background-color: rgb(189, 84, 84);
     display: inline-flex;
-    margin-bottom: 25px;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    max-height: 80px;
 }
 
 #logo {
     width: 50%;
-    background-color: rgb(208, 226, 43);
-
 }
 
-#menu {
+header ul {
     width: 50%;
-    background-color: rgb(168, 255, 127);
+    display: flex;
     flex-direction:row;
     justify-content: flex-end;
     align-items: flex-start;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
 }
 
 article {
     width: 100%;
     height: 450px;
-    background-color: rgb(173, 108, 88);
     display: inline-flex;
 }
 
 #superior {
- /*   display: inline-flex; */
     width: 50%;
-    background-color: rgb(121, 121, 134);
+    padding-right: 60px;
+    padding-top: 25px;
+    max-height: max-content;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+#azul {
+    color: rgb(63, 97, 170);
+    padding-top: 12px;
 }
 
 #inferior {
-   /* display: inline-flex; */
     width: 50%;
-    background-color: rgb(136, 170, 170);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    max-height: max-content;
+}
+
+#inferior img {
+    max-height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#inferior p {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 16px;
 }
 
 footer {
     width: 100%;
-    height: 200px;
-    background-color: rgb(73, 64, 82);
+    height: 180px;
+    background-color: rgb(46, 46, 46);
+}
+
+#menu2 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+    color: white;
 }
 
 ul {
@@ -85,5 +127,14 @@ li {
 
 #ofertas {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
     padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#ofertas img {
+    max-width: 100%;
 }
