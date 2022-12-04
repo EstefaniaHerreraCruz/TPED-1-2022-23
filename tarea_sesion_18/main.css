@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(230, 230, 230);
+    padding: 12px;
+}
+
+div {
+    width: 32%;
+    height: 300px;
+    min-width: 400px;
+    border-style: dashed;
+    margin-bottom: 18px;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    overflow: auto;
+}
+
+h2 {
+    font-family: initial;
+    padding-bottom: 6px;
+}
+
+#p1 {
+    font-family: 'Bellota', cursive;
+}
+
+#p2 {
+    font-family: 'Caveat', cursive;
+}
+
+#p3 {
+    font-family: 'Codystar', cursive;
+}
+
+#p4 {
+    font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+#p5 {
+    font-family: 'Lobster', cursive;
+}
+
+#p6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#p7 {
+    font-family: 'Nabla', cursive;
+}
+
+#p8 {
+    font-family: 'New Rocker', cursive;
+}
+
+#p9 {
+    font-family: 'Righteous', cursive;
+}
