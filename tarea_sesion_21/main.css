@@ -7,3 +7,104 @@
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+header {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 15px;
+    color: rgb(126, 197, 18);
+}
+
+#menu-dcha {
+    display: flex;
+    align-items: center;
+
+}
+
+#menu-centro {
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-centro ul li {
+    display: inline-block;
+}
+
+#menu-dcha {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#menu-dcha ul {
+    list-style-type: none;
+}
+
+article {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#left1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    width: 40%;
+}
+
+#botones p {
+    padding-top: 20px;
+}
+
+#right1 img {
+    width: 100%;
+    height: auto;
+}
+
+#galeria {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-flow: row wrap;
+    overflow: hidden;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+}
+
+#pie {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#left2 {
+    padding-top: 15px;
+}
+
+#right2 {
+    height: 60mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
