@@ -74,7 +74,7 @@ button {
 
 #galeria {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     flex-flow: row wrap;
     overflow: hidden;
